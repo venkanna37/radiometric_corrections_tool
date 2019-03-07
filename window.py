@@ -73,7 +73,7 @@ class window(QWidget):
         # Main Window
         self.setGeometry(100, 100, 1000, 700)
         self.setWindowTitle("Radiometric Corrections")
-        self.setWindowIcon(QIcon('./data/pixels.jpg'))
+        self.setWindowIcon(QIcon('./data/   pixels.jpg'))
         self.show()
 
     iname = None
