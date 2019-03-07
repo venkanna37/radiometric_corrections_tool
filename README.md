@@ -2,7 +2,7 @@
 
 Radiometric correction tool, it can be used to correct the all radiometric corrections ( simply
 editing the pixel values of raster image). as a module project in masters, I just completed only
-some corrections ( those corrections need to be customize). It is a GUI based tool, It can be used as CLI.
+some corrections ( those corrections need to be customize). It is a GUI based tool, It can be used in CLI.
 below I mentioned the list of corrections I targeted.
 
 ### 1. Atmospheric corrections
@@ -30,8 +30,10 @@ that we can give minimum pixel value of each band and it can subtract respective
 ### Installation && Running
 
 #### Clone repository with git
-`git clone https://github.com/venkanna37/radiometric_corrections_tool.git`
-`cd radiometric_corrections_tool`
+```
+git clone https://github.com/venkanna37/radiometric_corrections_tool.git
+cd radiometric_corrections_tool
+```
 
 #### Install dependencies
 `python3 -m pip install -r requirements.txt`
