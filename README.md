@@ -1,9 +1,6 @@
 # radiometric_corrections_tool
 
-Radiometric correction tool, it can be used to correct the all radiometric corrections ( simply
-editing the pixel values of raster image). as a module project in masters, I just completed only
-some corrections ( those corrections need to be customize). It is a GUI based tool, It can be used in CLI.
-below I mentioned the list of corrections I targeted.
+Radiometric correction tool is a tool for atmosperic corrections and image enhancement that simply modifies the pixel values of an image.
 
 ### 1. Atmospheric corrections
 - [x] Skyradiance/Haze/Dark Object Subtraction
@@ -19,12 +16,6 @@ below I mentioned the list of corrections I targeted.
 - [ ] Y-Gradient filter
 - [ ] All-Gradient filter
 - [ ] Edge enhancing filter
-
-### Limitations
-- In dark object subtraction, the minimum pixel value is subtracting from every pixel. It can extent,
-that we can give minimum pixel value of each band and it can subtract respective value from each band.
-- In Weighted average method, the constants weights multiplying in kernel, there we can choose weights.
-
 
 
 ### Installation && Running
